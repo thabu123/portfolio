@@ -1,0 +1,12 @@
+section{
+	width:30%;
+	display:inline-block;
+	float:left;
+	margin-right:3%;
+}
+footer{
+	clear:both;
+}
+img{
+	width:50px;
+}

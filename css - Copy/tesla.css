@@ -1,0 +1,184 @@
+
+
+.container1{
+	display:flex;
+	flex-direction:row;
+	width:97.5%;
+	box-shadow: 5px 10px gray;
+	margin:0.5%;
+	background-color:white;
+
+}
+.a{
+	width:20%;
+	padding: 2%;
+}
+.a img{
+	width:50%;
+}
+.b{
+	width:80%;
+	text-align: right;
+	padding:2%;
+}
+.c {
+	
+	width:97.5%;
+	margin:1%;
+}
+.c img{
+	width:100%;
+}
+.container2{
+	display:flex;
+	flex-direction:row;
+	width:98%;
+	margin:1%;
+	flex-wrap: wrap;
+    justify-content:space-around; 
+
+}
+.d{
+	width:27%;
+	margin:1%;
+	background-color:lightgray;
+	box-shadow:5px 6px black;
+	padding:2%;
+	border-radius:5%;
+	text-align: center;
+
+}
+.d img{
+	width:100%;
+	border-radius:5%;
+}
+
+.x{
+	width:30%;
+	height:10%;
+	border-radius:20%;
+	background-color:black;
+	color:white;
+	border:2px solid #F0F8FF;
+}
+h3{
+	margin:1.5%;
+}
+.foot{
+	background-color:#DCDCDC;
+	text-align: center;
+	color:black;
+	width:96%;
+	margin:1.5%;
+	padding-top:1%;
+	padding-bottom:1%;
+	
+	
+}
+
+
+
+@media only screen and (min-width:320px) and (max-width:767px){
+	.container1{
+	display:flex;
+	flex-direction:column;
+	width:96%;
+	box-shadow: 2px 2px 5px 5px gray;
+	margin:1%;
+
+}
+
+.a{
+	width:100%;
+}
+.a img{
+	position:relative;
+	left:25%;
+	width:50%;
+}
+.b{
+	width:100%;
+	text-align:center;
+}
+.c {
+	width:96%;
+	margin:2%;
+	margin-top:5%;
+}
+.c img{
+	width:100%;
+	}
+.container2{
+	display:flex;
+	flex-direction:column;
+	width:98%;
+	margin:1%;
+
+}
+.d{
+	width:93%;
+	margin-top:1%;
+	margin-bottom:3%;
+	background-color:lightgray;
+	box-shadow:3px 5px black;
+	padding:2%;
+	border-radius:5%;
+	text-align: center;
+
+}
+.d img{
+	width:100%;
+	border-radius:5%;
+}
+
+.x{
+	width:25%;
+	height:30px;
+	border-radius:20%;
+	background-color:black;
+	color:white;
+}
+h3{
+	margin:1.5%;
+}
+.foot{
+	background-color:#DCDCDC;
+	text-align: center;
+	color:black;
+	width:96%;
+	margin:1.5%;
+	padding-top:1%;
+	padding-bottom:1%;
+	
+	
+}
+
+
+}
+@media only screen and (min-width:768px) and (max-width:1023px){
+	.d{
+		width:37%;
+		background-color:lightgray;
+
+	}
+	.c{
+		margin-top:2%;
+	}
+	body{
+	background-color:gray;
+    }
+    .container1{
+	
+	
+	margin:1%;
+	
+
+}
+	
+	
+
+}
+	
+
+			
+
