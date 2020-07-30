@@ -88,7 +88,9 @@ h3{
 	background-color:#A9A9A9;
 	color:#191970;
 }
-
+.x a:hover{
+	color:white;
+}
 
 
 @media only screen and (min-width:320px) and (max-width:767px){
