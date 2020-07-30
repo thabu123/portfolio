@@ -73,13 +73,22 @@ h3{
 	
 	
 }
-.d button:hover{
-	background-color: gray;
-	color:black;
-}
-.d a{
+
+.x a{
 	text-decoration:none;
 	color:white;
+}
+.d button:hover{
+	background-color:gray;
+	color:black;
+
+}
+.x a:hover{
+	color:black;
+}
+.d:hover{
+	background-color:#A9A9A9;
+	color:#191970;
 }
 
 
